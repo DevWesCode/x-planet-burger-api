@@ -51,9 +51,9 @@ API RESTful em desenvolvimento para gerenciar o cardápio da hamburgueria **X Pl
 ### 🍔 `products`
 | Campo        | Tipo     | Regras                         |
 |--------------|----------|--------------------------------|
-| id           | INTEGER  | Auto incremento, PK            |
+| id           | INTEGER  | Auto incremento                |
 | name         | STRING   | Nome do produto                |
-| price        | INTEGER  | Preço em centavos              |
+| price        | INTEGER  | Preço                          |
 | category     | STRING   | Ex: "tradicional", "vegano"    |
 | path         | STRING   | Caminho da imagem              |
 | created_at   | DATE     | Auto gerado                    |
